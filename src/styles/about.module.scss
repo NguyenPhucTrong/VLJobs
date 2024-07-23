@@ -1,0 +1,106 @@
+.container {
+    background-color: #f7fafc;
+    padding: 2rem;
+
+    
+.swiper-container {
+  height:600px;
+  width: 100%;
+}
+
+.swiper-slide {
+  height: 600px;
+  width: 100%;
+}
+
+.swiper-slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 6rem; // Adjust this value to match Tailwind's text-9xl
+}
+
+  
+    .card {
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 0.5rem;
+      padding: 2rem;
+      margin: 1rem 0;
+      transition: box-shadow 0.3s ease-in-out;
+  
+      &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+  
+      .card-title {
+        color: #333;
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+      }
+  
+      .card-text {
+        color: #555;
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
+  
+      &.text-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+  
+        .content-wrapper {
+          width: 100%; 
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+  
+      .social-link {
+        margin: 0 0.5rem;
+        display: flex;
+        align-items: center;
+  
+        .social-icon {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  
+    .website-link {
+      color: #1890ff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
